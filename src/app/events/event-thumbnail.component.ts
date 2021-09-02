@@ -23,4 +23,8 @@ export class EventThumbnailComponent {
     @Input()  event:any
     @Output() eventClick = new EventEmitter()
 
+    logfoo() {
+        console.log('foo')
+    }
+
 }
